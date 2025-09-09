@@ -3,7 +3,7 @@ public interface IDataService<T>
 {
     Task<IEnumerable<T>> GetAll();
 
-    Task<IEnumerable<T>> Get(int id);
+    Task<T> Get(int id);
 
     Task<T> Create(T entity);
 
