@@ -10,7 +10,7 @@ using topMedic.EntityFramework;
 
 namespace topMedic.EntityFramework.Migrations
 {
-    [DbContext(typeof(topMedicDbContext))]
+    [DbContext(typeof(TopMedicDbContext))]
     partial class topMedicDbContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

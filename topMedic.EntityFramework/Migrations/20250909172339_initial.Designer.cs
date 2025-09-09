@@ -11,7 +11,7 @@ using topMedic.EntityFramework;
 
 namespace topMedic.EntityFramework.Migrations
 {
-    [DbContext(typeof(topMedicDbContext))]
+    [DbContext(typeof(TopMedicDbContext))]
     [Migration("20250909172339_initial")]
     partial class initial
     {
