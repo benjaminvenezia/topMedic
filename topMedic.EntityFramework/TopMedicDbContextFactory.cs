@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Design;
 namespace topMedic.EntityFramework;
 public class TopMedicDbContextFactory : IDesignTimeDbContextFactory<TopMedicDbContext>
 {
-    public TopMedicDbContext CreateDbContext(string[] args)
+    public TopMedicDbContext CreateDbContext(string[] args = null)
     {
         var options = new DbContextOptionsBuilder<TopMedicDbContext>();
 
