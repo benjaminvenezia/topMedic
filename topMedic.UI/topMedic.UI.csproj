@@ -8,4 +8,9 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\topMedic.Domain\topMedic.Domain.csproj" />
+    <ProjectReference Include="..\topMedic.EntityFramework\topMedic.EntityFramework.csproj" />
+  </ItemGroup>
+
 </Project>
