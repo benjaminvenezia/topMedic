@@ -1,6 +1,7 @@
 ﻿using System.Configuration;
 using System.Data;
 using System.Windows;
+using topMedic.UI.ViewModels;
 
 namespace topMedic.UI
 {
@@ -16,6 +17,7 @@ namespace topMedic.UI
             base.OnStartup(e); // initialise l'application
 
             Window window = new MainWindow();
+            window.DataContext = new MainViewModel();
             window.Show();
    
         }
